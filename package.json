@@ -2,7 +2,7 @@
   "name": "vite-speedtest",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "npm run prettier && vite",
     "build": "tsc && vite build",
     "serve": "vite preview",
     "prettier": "prettier --write \"**/*.{js,ts,tsx}\"",
@@ -25,6 +25,8 @@
     "eslint": "^8.3.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.27.1",
+    "eslint-plugin-react-hooks": "^4.3.0",
     "husky": "^7.0.4",
     "lint-staged": "^12.1.2",
     "postcss": "^8.4.4",
