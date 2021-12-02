@@ -4,3 +4,6 @@ dist
 dist-ssr
 *.local
 .husky
+.idea
+tailwind.config.js
+postcss.config.js
